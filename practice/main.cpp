@@ -26,5 +26,7 @@ int main()
 
 	std::memcpy(&deserialiedData, serializedData.data(), serializedData.size());
 
+	std::cout << "branchTest" << std::endl;
+
 	return 0;
 }
