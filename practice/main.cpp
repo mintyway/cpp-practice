@@ -1,8 +1,30 @@
 #include <iostream>
+#include <array>
+#include <cstring>
+#include <vector>
+
+#pragma pack(push, 1)
+
+struct TestStruct
+{
+	int j;
+	short i;
+};
+
 
 int main()
 {
-	std::cout << "첫 리포지트리" << std::endl;
+	TestStruct testStruct;
+	TestStruct deserialiedData;
+	const int StructSize = sizeof(testStruct);
+	std::array<std::byte, StructSize> serializedData;
+
+	testStruct.i = 9;
+	testStruct.j = 20;
+
+	std::memcpy(serializedData.data(), &testStruct, StructSize);
+
+	std::memcpy(&deserialiedData, serializedData.data(), serializedData.size());
 
 	return 0;
 }
