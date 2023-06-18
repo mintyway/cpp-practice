@@ -26,7 +26,5 @@ int main()
 
 	std::memcpy(&deserialiedData, serializedData.data(), serializedData.size());
 
-	std::cout << "nice" << std::endl;
-
 	return 0;
 }
