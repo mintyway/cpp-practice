@@ -3,7 +3,6 @@
 int main()
 {
 	int number = 10;
-	std::cout << "SubBranch" << std::endl;
-	std::cout << "SunTest" << std::endl;
+	std::cout << "Sub" << std::endl;
 	return 0;
 }
