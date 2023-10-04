@@ -2,8 +2,7 @@
 
 int main()
 {
-	int number = 10;
-	std::cout << "SubBranch" << std::endl;
-	std::cout << "SunTest" << std::endl;
+	int number = 100;
+	std::cout << "Sub2" << std::endl;
 	return 0;
 }
