@@ -1,23 +1,14 @@
 #include <iostream>
 
+float Add(const float LeftNumber, const float RightNumber)
+{
+	float Result = LeftNumber + RightNumber;
+	return Result;
+}
+
 int main()
 {
-	// 동우-1
-	// 나래-2
-	// 3
-	// 4
-	// 5
-	// 6
-	// 7
-	// 8
-	// 9
-	// 10
-	// 11
-	// 12
-	// 13
-	// 14
-	// 15
-	// 16
-	// 17
+	float Result = Add(5, 1);
+	std::cout << Result << std::endl;
 	return 0;
 }
