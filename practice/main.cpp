@@ -25,10 +25,10 @@ int main()
 	const float MultiplyResult = Multiply(3, 5);
 	std::cout << MultiplyResult << std::endl;
 	
-	TestPrint();
-	
 	const int Number = 10;
 	std::cout << Number << std::endl;
+	
+	TestPrint();
 	
 	return 0;
 }
