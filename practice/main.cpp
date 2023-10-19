@@ -2,13 +2,13 @@
 
 float Add(const float LeftNumber, const float RightNumber)
 {
-	float Result = LeftNumber + RightNumber;
+	const float Result = LeftNumber + RightNumber;
 	return Result;
 }
 
 int main()
 {
-	float Result = Add(5, 1);
-	std::cout << Result << std::endl;
+	const float AddResult = Add(5, 1);
+	std::cout << AddResult << std::endl;
 	return 0;
 }
