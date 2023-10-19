@@ -1,23 +1,14 @@
 #include <iostream>
 
+float Multiply(const float LeftNumber, const float RightNumber)
+{
+	const float Result = LeftNumber * RightNumber;
+	return Result;
+}
+
 int main()
 {
-	// 동우-1
-	// 나래-2
-	// 3
-	// 4
-	// 5
-	// 6
-	// 7
-	// 8
-	// 9
-	// 10
-	// 11
-	// 12
-	// 13
-	// 14
-	// 15
-	// 16
-	// 17
+	const float MultiplyResult = Multiply(3, 5);
+	std::cout << MultiplyResult << std::endl;
 	return 0;
 }
